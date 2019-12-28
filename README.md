@@ -1,2 +1,2 @@
 # Reset Cache
-A vendor plugin for the [Saber](https://github.com/Datasilk/Saber) CMS platform that allows webmasters to manually reset cache across all networked servers for html Views stored in memory.
+A vendor plugin for the [Saber](https://github.com/Datasilk/Saber) CMS platform that allows webmasters to manually reset the stored cache of objects across all networked servers. This could be useful if your website isn't loading correctly.
