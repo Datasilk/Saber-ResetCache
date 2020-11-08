@@ -1,4 +1,4 @@
-﻿using Saber.Common.ProcessInfo;
+﻿using Saber.Core;
 
 namespace Saber.Vendor.ImportExport
 {
@@ -6,10 +6,8 @@ namespace Saber.Vendor.ImportExport
     {
         public override string Render(string body = "")
         {
-            Server.Cache.Clear();
-            ViewCache.cache.Clear();
-            Gulp.Task("default");
-            Gulp.Task("default:website");
+            Cache.Store.Clear();
+            ViewCache.Clear();
             return "";
         }
     }
