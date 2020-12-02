@@ -1,11 +1,12 @@
 ﻿using Saber.Core;
+using Saber.Vendor;
 
-namespace Saber.Vendor.ResetCache
+namespace Saber.Vendors.ResetCache
 {
-    [ViewPath("/Views/AppSettings/appsettings.html")]
-    public class ViewRenderer : IVendorViewRenderer
+    public class WebsiteSettings : IVendorWebsiteSettings
     {
-        public string Render(IRequest request, View view)
+        public string Name { get; set; } = "Reset Cache";
+        public string Render(IRequest request)
         {
             var settingsView = new View("/Vendors/ResetCache/resetcache.html");
             request.AddScript("/editor/js/vendors/resetcache/resetcache.js");

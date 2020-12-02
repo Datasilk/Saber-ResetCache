@@ -12,7 +12,7 @@ A vendor plugin for [Saber](https://saber.datasilk.io) that allows users to manu
 
 #### For DevOps Users
 While using the latest release of Saber, do the following:
-* Download latest release of [Saber.Vendor.ResetCache](https://github.com/Datasilk/Saber-ResetCache/releases)
+* Download latest release of [Saber.Vendors.ResetCache](https://github.com/Datasilk/Saber-ResetCache/releases)
 * Extract all files & folders from either the `win-x64` or `linux-x64` zip folder to Saber's `/Vendors/` folder
 
 ### Publish
