@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>Saber.Vendor.ResetCache</RootNamespace>
-    <AssemblyName>Saber.Vendor.ResetCache</AssemblyName>
+    <RootNamespace>Saber.Vendors.ResetCache</RootNamespace>
+    <AssemblyName>Saber.Vendors.ResetCache</AssemblyName>
     <Authors>Mark Entingh</Authors>
     <Company>Datasilk</Company>
     <Description>A vendor plugin for Saber (https://saber.datasilk.io/saber) that allows administrators to clear all in-memory cached objects related to web pages, such as HTML files, language-specific content JSON files, and page settings JSON files.</Description>
