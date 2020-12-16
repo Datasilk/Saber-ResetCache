@@ -5,7 +5,7 @@
     <AssemblyName>Saber.Vendors.ResetCache</AssemblyName>
     <Authors>Mark Entingh</Authors>
     <Company>Datasilk</Company>
-    <Description>A vendor plugin for Saber (https://saber.datasilk.io/saber) that allows administrators to clear all in-memory cached objects related to web pages, such as HTML files, language-specific content JSON files, and page settings JSON files.</Description>
+    <Description>A vendor plugin for Saber (https://saber.datasilk.io/saber) that allows administrators to clear all in-memory cached objects related to web pages, such as HTML files, multi-lingual content JSON files, and page settings JSON files.</Description>
     <Copyright>2020 Datasilk</Copyright>
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://www.github.com/Datasilk/Saber-ResetCache</RepositoryUrl>

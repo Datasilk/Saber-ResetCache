@@ -1,6 +1,6 @@
 ﻿using Saber.Vendor;
 
-namespace Saber.Vendors.ImportExport
+namespace Saber.Vendors.ResetCache
 {
     public class ResetCache : Controller, IVendorController
     {

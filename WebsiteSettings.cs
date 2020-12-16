@@ -9,7 +9,7 @@ namespace Saber.Vendors.ResetCache
         public string Render(IRequest request)
         {
             var settingsView = new View("/Vendors/ResetCache/resetcache.html");
-            request.AddScript("/editor/js/vendors/resetcache/resetcache.js");
+            request.AddScript("/editor/vendors/resetcache/resetcache.js");
             return settingsView.Render();
         }
     }
